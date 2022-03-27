@@ -1,0 +1,120 @@
+/*     This is CSS File of Project101.     */
+
+/*     CLASSES     */
+
+.block1{
+  border: 0;
+  display: inline-block;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+
+}
+
+.block2{
+  display: inline-block;
+  border: 0;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+}
+
+.block1-content, .block2-content{
+  position:absolute;
+}
+
+.bottom-footer{
+  background-color: #182b35;
+  color: white;
+  padding:1% 3% 1% 3%;
+  font-size:17px;
+  font-weight:bold;
+  margin: 0;
+}
+
+.bottom-footer-center{
+  display: inline-block;
+  text-align: center;
+  width: 33.333%;
+}
+.bottom-footer-left{
+  display: inline-block;
+  text-align: left;
+  width: 33.333%;
+}
+
+.bottom-footer-right{
+  display: inline-block;
+  text-align: right;
+  width: 33.333%;
+}
+
+.dukaan{
+  font-family: 'Merriweather', cursive;
+}
+
+.footer{
+  background-color: #2E5266FF;
+  color: white;
+  margin: 0;
+  padding:1% 3% 1% 3%;
+  z-index: 3;
+}
+
+.footer-head{
+  color: #D3D0CBFF;
+  margin-bottom: 1em;
+}
+
+.header{
+  background-color: green;
+  color: white;
+  font-family: 'Sacramento', cursive;
+  font-size: 60px;
+  font-weight: bold;
+  position:fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.middle{
+  background-color: #D3D0CBFF;
+  height: 1000px;
+  z-index: 2; /*z-index help websites to position elements in 3D-coordinate wise. z-index of the element which you want to be in the top should be higher than the element which you want to be below the top element. */
+}
+
+.viral{
+  color: white;
+  font-family: 'Amaranth', cursive;
+  padding-left: 20px;
+}
+/*     IDS     */
+
+
+
+/*     TAGS     */
+
+body{
+  margin: 0;
+}
+
+h1{
+  margin: 0;
+}
+
+hr{
+  width: 100%;
+  height: 3px;
+}
+
+p{
+
+  margin: 0;
+}
+
+/*
+  Sapphire (#2E5266FF) Light Slate Gray (#6E8898FF) Cadet Gray (#9FB1BCFF) and American Silver (#D3D0CBFF)
+*/
