@@ -1,20 +1,6 @@
-/*     This is CSS File of Project101.     */
-
-/*     CLASSES     */
-
-
-
-
-
 .dukaan{
   font-family: 'Merriweather', cursive;
 }
-
-
-
-
-
-
 
 .middle{
   background-color: #D3D0CBFF;
@@ -22,19 +8,13 @@
   z-index: 2; /*z-index help websites to position elements in 3D-coordinate wise. z-index of the element which you want to be in the top should be higher than the element which you want to be below the top element. */
 }
 
-
-
 .viral{
   color: white;
   font-family: 'Amaranth', cursive;
   padding-left: 1.25rem;
 }
-/*     IDS     */
-
-
 
 /*     TAGS     */
-
 body{
   margin: 0;
 }
@@ -88,10 +68,6 @@ p{
   font-weight: bold;
 }
 
-
-
-
-
 /* Footer of the main page */
 #footer{
   background-color: #2E5266FF;
@@ -138,7 +114,7 @@ p{
   width: 33.333%;
 }
 /*
-  Sapphire (#2E5266FF) Light Slate Gray (#6E8898FF) Cadet Gray (#9FB1BCFF) and American Silver (#D3D0CBFF)
+  #2E5266  #6E8898  #9FB1BC  #D3D0CB
 
   #F9EBC8  #FEFBE7  #DAE5D0  #A0BCC2
 
