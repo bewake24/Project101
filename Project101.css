@@ -76,6 +76,35 @@ p {
 
 }
 
+button{
+  -webkit-border-radius: 50;
+  -moz-border-radius: 50;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 2px 3px #595959;
+  -moz-box-shadow: 0px 2px 3px #595959;
+  box-shadow: 0px 2px 3px #595959;
+  font-size: 0px;
+  padding: 5px;
+  background: transparent;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+}
+
+button:active{
+  background: #ffffff;
+  text-decoration: none;
+}
+
+/* Cards for the featured Products */
+#cards{
+
+}
+
+
+
+
+
+
 /* Footer of the main page */
 #footer {
   background-color: #2E5266FF;
