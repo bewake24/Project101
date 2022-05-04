@@ -29,19 +29,6 @@ p {
   margin: 0;
 }
 
-.odd {
-  border: solid white 0.5rem;
-  height: 100px;
-  border-radius: 50%;
-  background-color: #446A46;
-}
-
-.even {
-  border: solid white 0.5rem;
-  height: 100px;
-  border-radius: 50%;
-  background-color: #E04D01;
-}
 
 /* Navigation Bar of main page */
 #navigation-bar {
@@ -66,33 +53,49 @@ p {
   font-weight: bold;
 }
 
+/* Categories Section */
+#categories{
+  padding: 0 5%;
+}
+
+.odd {
+  border: solid white 0.5rem;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #446A46;
+}
+
+.even {
+  border: solid white 0.5rem;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #E04D01;
+}
+
 /* Silder for the trending products */
 #slider{
   padding: 2rem 0;
 }
 
-.slider-dimension{
+.slides{
   width: 100%;
+  display: none;
 
 }
-
-button{
-  -webkit-border-radius: 50;
-  -moz-border-radius: 50;
-  border-radius: 50px;
-  -webkit-box-shadow: 0px 2px 3px #595959;
-  -moz-box-shadow: 0px 2px 3px #595959;
-  box-shadow: 0px 2px 3px #595959;
-  font-size: 0px;
-  padding: 5px;
+.slider-indicator{
+  cursor: pointer;
   background: transparent;
-  border: solid #ffffff 2px;
-  text-decoration: none;
+  border: solid #ffffff 0.2rem;
+  border-radius: 50%;
+  height: 0.7rem;
+  width: 0.7rem;
+  padding: 0.2125rem;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-button:active{
-  background: #ffffff;
-  text-decoration: none;
+.slider-indicator:hover{
+  background: white;
 }
 
 /* Cards for the featured Products */
