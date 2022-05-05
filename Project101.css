@@ -100,7 +100,7 @@ p {
 
 /* Cards for the featured Products */
 #cards{
-  
+
 }
 
 
@@ -125,6 +125,14 @@ p {
   color: #D3D0CBFF;
   margin-bottom: 1em;
 }
+
+.footer-image{
+  width: 9.5rem;
+  /* height: 6.25rem; */
+  border-radius: 5%;
+  border-color: #FFC4DD;
+}
+
 
 /* Lowest part of the main page */
 #bottom-footer {
